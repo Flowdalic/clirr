@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!--
-  - Maven 2.x parent pom file for Clirr.
+  - Maven 3.x parent pom file for Clirr.
   -
   - This file configures defaults for all the clirr submodules.
   -->
@@ -16,8 +16,8 @@
   <version>0.7-SNAPSHOT</version>
   <licenses>
     <license>
-      <name>Apache License Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <name>GNU Lesser General Public License (LGPL)</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
     </license>
   </licenses>
   <description>
