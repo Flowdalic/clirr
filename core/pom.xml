@@ -1,5 +1,5 @@
 <!--
-  - Maven 2.x pom file for the CLIRR Core module.
+  - Maven 3.x pom file for the CLIRR Core module.
   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -82,6 +82,8 @@
         <version>2.0.2</version>
         <configuration>
           <encoding>${project.build.sourceEncoding}</encoding>
+          <source>1.5</source>
+          <target>1.5</target>
         </configuration>
       </plugin>
 
